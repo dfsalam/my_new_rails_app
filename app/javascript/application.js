@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
-
-function App() {
-  return (<Home />);
-}
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
 
 ReactDOM.render(
-  <App/>,
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>,
   document.getElementById('root'),
 );
