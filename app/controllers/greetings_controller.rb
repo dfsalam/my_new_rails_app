@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
-  before_action :set_greeting, only: %i[ show update destroy ]
+  before_action :set_greeting, only: %i[show update destroy]
 
   # GET /greetings
   # GET /greetings.json
@@ -8,5 +8,5 @@ class GreetingsController < ApplicationController
     @greeting = [@greetings.sample]
 
     render json: @greeting
-  end  
+  end
 end
