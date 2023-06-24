@@ -5,7 +5,7 @@ export const initialState = {
   isLoading: false,
   errors: null,
 };
-const URL = 'http://127.0.0.1:3000/api/v1/greetings';
+const URL = 'http://127.0.0.1:3000/greetings';
 export const getGreetings = createAsyncThunk('greetings/getGreetings',
   async () => {
     try {
