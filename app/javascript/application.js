@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/Home';
 
 function App() {
-  return (<h1>Hello World!</h1>);
+  return (<Home />);
 }
 
 ReactDOM.render(
